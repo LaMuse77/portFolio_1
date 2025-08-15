@@ -1,0 +1,270 @@
+@import 'variables';
+@import 'mixins'; // si tu en as besoin
+@import 'fonts';  // idem
+
+/* Reset & base */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  padding: 3vw;
+  transition: background-color var(--transition), color var(--transition);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Liens & focus */
+a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color var(--transition), opacity var(--transition);
+  &:hover { opacity: .9; }
+}
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* ------------------ NAVIGATION ------------------ */
+nav#SideObjectNav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 64px;
+
+  ul {
+    list-style: none;
+
+    > li {
+      margin: 1rem 0;
+
+      > a {
+        display: inline-flex;
+        align-items: center;
+        gap: .6rem;
+        font-size: 1.2rem;
+        color: var(--accent);
+
+        i { font-size: 1.2rem; }
+      }
+
+      /* sous-menu */
+      > ul {
+        margin-top: .4rem;
+        padding-left: 1.8rem;
+        border-left: 2px solid var(--border);
+        display: grid;
+        gap: .35rem;
+
+        a {
+          font-size: .95rem;
+          color: var(--text);
+          opacity: .85;
+          &:hover { opacity: 1; }
+        }
+      }
+    }
+  }
+
+  .independanteBtn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+
+  .ModeBtn {
+    cursor: pointer;
+
+    i {
+      font-size: 1.5rem;
+      background-color: var(--panel);  // utilise la couleur de panel
+      color: var(--text);               // texte/icône selon le thème
+      padding: 0.5rem;
+      border-radius: 50%;
+      box-shadow: var(--shadow);
+      transition: background 0.3s, color 0.3s;
+
+      &:hover {
+        background-color: light(var(--accent), 10%);
+      }
+    }
+  }
+}
+
+/* Responsive : bouton un peu plus petit sur mobile */
+@media (max-width: 600px) {
+  .independanteBtn {
+    top: 10px;
+    right: 10px;
+
+    .ModeBtn i {
+      font-size: 1.2rem;
+      padding: 0.4rem;
+    }
+  }
+}
+
+}
+
+/* ------------------ MAIN / HEADER ------------------ */
+main { flex: 1; }
+
+header {
+  .LittlePresentation {
+    .heading h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      letter-spacing: .5px;
+      color: var(--accent);
+    }
+
+    section {
+      padding-top: 1rem;
+
+      p {
+        width: min(60ch, 60%);
+        padding: 0.8rem 1rem;
+        border: 1px solid var(--border);
+        background-color: var(--panel);
+        color: var(--text);
+        border-radius: var(--radius);
+        box-shadow: var(--shadow);
+      }
+    }
+  }
+
+  .socialNetwork {
+    padding-top: 1.5vw;
+
+    ul {
+      display: inline-flex;
+      flex-wrap: wrap;
+      gap: 1.1rem;
+      border: 2px solid var(--border);
+      padding: 0.6rem 1rem;
+      border-radius: var(--radius);
+      background: var(--panel);
+      box-shadow: var(--shadow);
+
+      li {
+        list-style: none;
+
+        a {
+          display: inline-flex;
+          width: 38px; height: 38px;
+          align-items: center; justify-content: center;
+          border: 1px solid var(--border);
+          border-radius: 10px;
+          color: var(--accent);
+          transition: transform var(--transition), background-color var(--transition), border-color var(--transition), color var(--transition);
+          &:hover { transform: translateY(-2px); }
+        }
+      }
+    }
+  }
+}
+
+/* ------------------ SLIDER ------------------ */
+#SliderProject {
+  margin-top: 2rem;
+
+  .heading h2 {
+    margin-bottom: 1rem;
+    color: var(--accent);
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .Project_N {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--gap);
+
+    .box_n {
+      height: 160px;
+      background-color: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      transition: transform var(--transition), box-shadow var(--transition);
+      &:hover { transform: translateY(-3px); }
+    }
+  }
+}
+
+/* ------------------ ABOUT US ------------------ */
+#AboutUs {
+  margin-top: 2.2rem;
+
+  .title h2 { color: var(--accent); margin-bottom: .5rem; text-align: center;}
+
+  .inside p {
+    line-height: 1.7;
+    max-width: 70ch;
+    opacity: .95;
+  }
+}
+
+/* ------------------ FORM ------------------ */
+#Invites {
+  margin-top: 2.2rem;
+
+  .forms {
+    background-color: var(--panel);
+    padding: 1.2rem;
+    border-radius: calc(var(--radius) + 4px);
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow);
+
+    h3 {
+      margin-bottom: 1rem;
+      color: var(--accent);
+      font-size: 1.3rem;
+    }
+
+    form {
+      display: grid;
+      gap: .9rem;
+
+      label {
+        font-weight: 600;
+        display: grid;
+        gap: .4rem;
+
+        input, textarea {
+          width: 100%;
+          padding: .65rem .8rem;
+          border: 1px solid var(--border);
+          border-radius: 8px;
+          background-color: transparent;
+          color: var(--text);
+          transition: border-color var(--transition), background-color var(--transition);
+          &::placeholder { color: color-mix(in oklab, var(--text) 70%, transparent); }
+          &:focus { outline: none; border-color: var(--accent); background-color: color-mix(in oklab, var(--panel) 70%, var(--bg)); }
+        }
+      }
+
+      button[type="submit"] {
+        margin-top: .4rem;
+        padding: .75rem 1rem;
+        border: 1px solid var(--border);
+        background-color: var(--accent);
+        color: var(--bg);
+        cursor: pointer;
+        border-radius: 10px;
+        font-weight: 700;
+        transition: transform var(--transition), opacity var(--transition), filter var(--transition);
+        &:hover { transform: translateY(-1px); }
+        &:active { transform: translateY(0); }
+      }
+    }
+  }
+}
+
+/* ------------------ Responsive ------------------ */
+@media (max-width: 900px) {
+  body { gap: 2rem; padding: 5vw; }
+  #SliderProject .Project_N { grid-template-columns: 1fr; }
+  header .LittlePresentation section p { width: 100%; }
+}

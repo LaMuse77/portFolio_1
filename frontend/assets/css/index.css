@@ -1,0 +1,252 @@
+@charset "UTF-8";
+/* Tokens SCSS si tu veux t'en servir ailleurs */
+/* Variables CSS utilisées par les composants */
+:root {
+  --bg: #291527;
+  --text: #eeecf2;
+  --accent: #eeecf2;
+  --panel: #3a2637;
+  --border: #eeecf2;
+  --radius: 12px;
+  --gap: 1.2rem;
+  --shadow: 0 8px 24px rgba(0,0,0,.25);
+  --transition: 220ms ease; }
+
+/* Light mode overrides */
+html[data-theme="light"] {
+  --bg: #eeecf2;
+  --text: #291527;
+  --accent: #291527;
+  --panel: #ffffff;
+  --border: #291527; }
+
+/* Reset & base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  padding: 3vw;
+  transition: background-color var(--transition), color var(--transition);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility; }
+
+/* Liens & focus */
+a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color var(--transition), opacity var(--transition); }
+  a:hover {
+    opacity: .9; }
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px; }
+
+/* ------------------ NAVIGATION ------------------ */
+nav#SideObjectNav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 64px;
+  /* Responsive : bouton un peu plus petit sur mobile */ }
+  nav#SideObjectNav ul {
+    list-style: none; }
+    nav#SideObjectNav ul > li {
+      margin: 1rem 0;
+      /* sous-menu */ }
+      nav#SideObjectNav ul > li > a {
+        display: inline-flex;
+        align-items: center;
+        gap: .6rem;
+        font-size: 1.2rem;
+        color: var(--accent); }
+        nav#SideObjectNav ul > li > a i {
+          font-size: 1.2rem; }
+      nav#SideObjectNav ul > li > ul {
+        margin-top: .4rem;
+        padding-left: 1.8rem;
+        border-left: 2px solid var(--border);
+        display: grid;
+        gap: .35rem; }
+        nav#SideObjectNav ul > li > ul a {
+          font-size: .95rem;
+          color: var(--text);
+          opacity: .85; }
+          nav#SideObjectNav ul > li > ul a:hover {
+            opacity: 1; }
+  nav#SideObjectNav .independanteBtn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000; }
+    nav#SideObjectNav .independanteBtn .ModeBtn {
+      cursor: pointer; }
+      nav#SideObjectNav .independanteBtn .ModeBtn i {
+        font-size: 1.5rem;
+        background-color: var(--panel);
+        color: var(--text);
+        padding: 0.5rem;
+        border-radius: 50%;
+        box-shadow: var(--shadow);
+        transition: background 0.3s, color 0.3s; }
+        nav#SideObjectNav .independanteBtn .ModeBtn i:hover {
+          background-color: light(var(--accent), 10%); }
+  @media (max-width: 600px) {
+    nav#SideObjectNav .independanteBtn {
+      top: 10px;
+      right: 10px; }
+      nav#SideObjectNav .independanteBtn .ModeBtn i {
+        font-size: 1.2rem;
+        padding: 0.4rem; } }
+
+/* ------------------ MAIN / HEADER ------------------ */
+main {
+  flex: 1; }
+
+header .LittlePresentation .heading h1 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  letter-spacing: .5px;
+  color: var(--accent); }
+header .LittlePresentation section {
+  padding-top: 1rem; }
+  header .LittlePresentation section p {
+    width: min(60ch, 60%);
+    padding: 0.8rem 1rem;
+    border: 1px solid var(--border);
+    background-color: var(--panel);
+    color: var(--text);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow); }
+header .socialNetwork {
+  padding-top: 1.5vw; }
+  header .socialNetwork ul {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 1.1rem;
+    border: 2px solid var(--border);
+    padding: 0.6rem 1rem;
+    border-radius: var(--radius);
+    background: var(--panel);
+    box-shadow: var(--shadow); }
+    header .socialNetwork ul li {
+      list-style: none; }
+      header .socialNetwork ul li a {
+        display: inline-flex;
+        width: 38px;
+        height: 38px;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        color: var(--accent);
+        transition: transform var(--transition), background-color var(--transition), border-color var(--transition), color var(--transition); }
+        header .socialNetwork ul li a:hover {
+          transform: translateY(-2px); }
+
+/* ------------------ SLIDER ------------------ */
+#SliderProject {
+  margin-top: 2rem; }
+  #SliderProject .heading h2 {
+    margin-bottom: 1rem;
+    color: var(--accent);
+    font-size: 1.6rem;
+    text-align: center; }
+  #SliderProject .Project_N {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--gap); }
+    #SliderProject .Project_N .box_n {
+      height: 160px;
+      background-color: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      transition: transform var(--transition), box-shadow var(--transition); }
+      #SliderProject .Project_N .box_n:hover {
+        transform: translateY(-3px); }
+
+/* ------------------ ABOUT US ------------------ */
+#AboutUs {
+  margin-top: 2.2rem; }
+  #AboutUs .title h2 {
+    color: var(--accent);
+    margin-bottom: .5rem;
+    text-align: center; }
+  #AboutUs .inside p {
+    line-height: 1.7;
+    max-width: 70ch;
+    opacity: .95; }
+
+/* ------------------ FORM ------------------ */
+#Invites {
+  margin-top: 2.2rem; }
+  #Invites .forms {
+    background-color: var(--panel);
+    padding: 1.2rem;
+    border-radius: calc(var(--radius) + 4px);
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow); }
+    #Invites .forms h3 {
+      margin-bottom: 1rem;
+      color: var(--accent);
+      font-size: 1.3rem; }
+    #Invites .forms form {
+      display: grid;
+      gap: .9rem; }
+      #Invites .forms form label {
+        font-weight: 600;
+        display: grid;
+        gap: .4rem; }
+        #Invites .forms form label input, #Invites .forms form label textarea {
+          width: 100%;
+          padding: .65rem .8rem;
+          border: 1px solid var(--border);
+          border-radius: 8px;
+          background-color: transparent;
+          color: var(--text);
+          transition: border-color var(--transition), background-color var(--transition); }
+          #Invites .forms form label input::placeholder, #Invites .forms form label textarea::placeholder {
+            color: color-mix(in oklab, var(--text) 70%, transparent); }
+          #Invites .forms form label input:focus, #Invites .forms form label textarea:focus {
+            outline: none;
+            border-color: var(--accent);
+            background-color: color-mix(in oklab, var(--panel) 70%, var(--bg)); }
+      #Invites .forms form button[type="submit"] {
+        margin-top: .4rem;
+        padding: .75rem 1rem;
+        border: 1px solid var(--border);
+        background-color: var(--accent);
+        color: var(--bg);
+        cursor: pointer;
+        border-radius: 10px;
+        font-weight: 700;
+        transition: transform var(--transition), opacity var(--transition), filter var(--transition); }
+        #Invites .forms form button[type="submit"]:hover {
+          transform: translateY(-1px); }
+        #Invites .forms form button[type="submit"]:active {
+          transform: translateY(0); }
+
+/* ------------------ Responsive ------------------ */
+@media (max-width: 900px) {
+  body {
+    gap: 2rem;
+    padding: 5vw; }
+
+  #SliderProject .Project_N {
+    grid-template-columns: 1fr; }
+
+  header .LittlePresentation section p {
+    width: 100%; } }
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,35 @@
+/* Tokens SCSS si tu veux t'en servir ailleurs */
+$dark-bg: #291527;
+$dark-text: #eeecf2;
+$dark-accent: #eeecf2;
+$dark-panel: #3a2637; // panneau + zones
+$dark-border: #eeecf2;
+
+$light-bg: #eeecf2;
+$light-text: #291527;
+$light-accent: #291527;
+$light-panel: #ffffff;
+$light-border: #291527;
+
+/* Variables CSS utilisées par les composants */
+:root {
+  --bg: #{$dark-bg};
+  --text: #{$dark-text};
+  --accent: #{$dark-accent};
+  --panel: #{$dark-panel};
+  --border: #{$dark-border};
+
+  --radius: 12px;
+  --gap: 1.2rem;
+  --shadow: 0 8px 24px rgba(0,0,0,.25);
+  --transition: 220ms ease;
+}
+
+/* Light mode overrides */
+html[data-theme="light"] {
+  --bg: #{$light-bg};
+  --text: #{$light-text};
+  --accent: #{$light-accent};
+  --panel: #{$light-panel};
+  --border: #{$light-border};
+}

@@ -1,47 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr" data-theme="dark"> <!-- dark par défaut, JS peut écraser -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio </title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://kit.fontawesome.com/328f530c68.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/css/index.css" />
+  <title>Portfolio</title>
 </head>
 <body>
 
-    <nav id="SideOjectNav">
+  <nav id="SideObjectNav">
+    <ul>
+      <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
+      <li><a href="#"><i class="fa-regular fa-bookmark"></i></a></li>
+      <li><a href="#"><i class="fa-solid fa-book"></i></a></li>
+      <li>
+        <a href="#">Projet</a>
         <ul>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
+          <li><a href="#">Side Project</a></li>
+          <li><a href="#">Kobens</a></li>
         </ul>
-    </nav>
+      </li>
+    </ul>
 
-    <main>
-        <header>
-            <div class="LittlePresentation">
+    <div class="independanteBtn">
+      <button class="ModeBtn" type="button" aria-label="Basculer thème">
+        <i class="fa-regular fa-moon" aria-hidden="true"></i>
+      </button>
+    </div>
+  </nav>
 
-            </div>
-            <div class="socialNetwork">
-                <ul>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                </ul>
-            </div>
-        </header>
-
-        <section id="SliderProject">
-            <div class="Project_N">
-
-            </div>
+  <main>
+    <header>
+      <div class="LittlePresentation">
+        <div class="heading">
+          <h1>Yafigue Coulibaly</h1>
+        </div>
+        <section>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In quaerat ut officiis modi dolores rerum voluptas maxime minus, corporis cupiditate asperiores dignissimos voluptatibus repellat ad quo ipsam quia alias velit!
+          </p>
         </section>
+      </div>
 
-        
-    </main>
-    
+      <div class="socialNetwork">
+        <ul>
+          <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+          <li><a href=""><i class="fa-brands fa-whatsapp"></i></a></li>
+          <li><a href=""><i class="fa-solid fa-envelope"></i></a></li>
+          <li><a href=""><i class="fa-brands fa-github"></i></a></li>
+          <li><a href=""><i class="fa-solid fa-layer-group"></i></a></li>
+          <li><a href=""><i class="fa-regular fa-paper-plane"></i></a></li>
+        </ul>
+      </div>
+    </header>
+
+    <section id="SliderProject">
+      <div class="heading">
+        <h2>Work Project</h2>
+      </div>
+      <div class="Project_N">
+        <div class="box_n"></div>
+        <div class="box_n"></div>
+        <div class="box_n"></div>
+      </div>
+    </section>
+
+    <section id="AboutUs">
+      <div class="title">
+        <h2>About Us</h2>
+      </div>
+      <div class="inside">
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente itaque corrupti, soluta quidem consectetur dolores…
+        </p>
+      </div>
+    </section>
+
+    <section id="Invites">
+      <div class="forms">
+        <h3>Parlons Projet</h3>
+        <form id="client-form">
+          <label>Nom complet
+            <input type="text" name="nom" required />
+          </label>
+          <label>Numéro de téléphone
+            <input type="tel" name="numero" required />
+          </label>
+          <label>Email
+            <input type="email" name="mail" required />
+          </label>
+          <label>Message / Description
+            <textarea name="message" rows="4" required></textarea>
+          </label>
+          <button type="submit">Envoyer</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    // THEME TOGGLE AVEC PERSISTENCE
+    (function () {
+      const html = document.documentElement;
+      const btn = document.querySelector(".ModeBtn");
+      const icon = btn.querySelector("i");
+      const PREF_KEY = "theme";
+
+      function setIcon(theme) {
+        if (theme === "light") {
+          icon.classList.remove("fa-moon");
+          icon.classList.add("fa-sun");
+        } else {
+          icon.classList.remove("fa-sun");
+          icon.classList.add("fa-moon");
+        }
+      }
+
+      // 1) Déterminer le thème initial (localStorage > prefers-color-scheme > dark)
+      const stored = localStorage.getItem(PREF_KEY);
+      const prefersLight = window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches;
+      const initial = stored || (prefersLight ? "light" : "dark");
+      html.setAttribute("data-theme", initial);
+      setIcon(initial);
+
+      // 2) Toggle au clic et persistance
+      btn.addEventListener("click", () => {
+        const current = html.getAttribute("data-theme");
+        const next = current === "light" ? "dark" : "light";
+        html.setAttribute("data-theme", next);
+        localStorage.setItem(PREF_KEY, next);
+        setIcon(next);
+      });
+    })();
+  </script>
 </body>
 </html>
