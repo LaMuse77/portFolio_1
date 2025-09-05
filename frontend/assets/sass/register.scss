@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input {
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 300px;
+}
+
+button {
+    padding: 0.5rem 1rem;
+}
+
+.error {
+    color: red;
+    margin-top: 1rem;
+}
+
+.success {
+    color: green;
+    margin-top: 1rem;
+}
