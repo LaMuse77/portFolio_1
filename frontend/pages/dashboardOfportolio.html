@@ -1,12 +1,433 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio - Développeur Full Stack</title>
+    <script src="https://kit.fontawesome.com/328f530c68.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../assets/css/dashboard.css">
 </head>
 <body>
-    
-    <h2> welcome to he dashboard </h2>
+    <section id="Side">
+        <button class="sidebar-toggle" onclick="toggleSidebar()">
+            <i class="fa-solid fa-chevron-left" id="toggleIcon"></i>
+        </button>
+        
+        <div class="title">
+             <h2>Portfolio</h2>
+        </div>
+        
+        <div class="nav-section">
+            <ul class="nav-list">
+                <li><a href="#" onclick="showSection('home')" class="active">
+                    <i class="fa-solid fa-house"></i>
+                    <span class="nav-text">Accueil</span>
+                </a></li>
+                <li><a href="#" onclick="showSection('about')">
+                    <i class="fa-solid fa-user"></i>
+                    <span class="nav-text">À propos</span>
+                </a></li>
+                <li><a href="#" onclick="showSection('projects')">
+                    <i class="fa-solid fa-code"></i>
+                    <span class="nav-text">Projets</span>
+                </a></li>
+                <li><a href="#" onclick="showSection('contact')">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span class="nav-text">Contact</span>
+                </a></li>
+            </ul>
+        </div>
+
+        <div class="nav-section ListOfProject">
+            <div class="title">
+                <h2>Projets Récents</h2>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#" onclick="openProject('ecommerce')">
+                    <i class="fa-solid fa-globe"></i>
+                    <span class="nav-text">E-commerce React</span>
+                </a></li>
+                <li><a href="#" onclick="openProject('mobile')">
+                    <i class="fa-solid fa-mobile"></i>
+                    <span class="nav-text">App Mobile Flutter</span>
+                </a></li>
+                <li><a href="#" onclick="openProject('api')">
+                    <i class="fa-solid fa-database"></i>
+                    <span class="nav-text">API Node.js</span>
+                </a></li>
+                <li><a href="#" onclick="openProject('dashboard')">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <span class="nav-text">Dashboard Analytics</span>
+                </a></li>
+                <li><a href="#" onclick="openProject('game')">
+                    <i class="fa-solid fa-gamepad"></i>
+                    <span class="nav-text">Jeu Web Three.js</span>
+                </a></li>
+            </ul>
+        </div>
+
+        <div class="nav-section ListOfStackInside">
+            <div class="title">
+                <h2>Technologies</h2>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#" onclick="filterByTech('javascript')">
+                    <i class="fa-brands fa-js"></i>
+                    <span class="nav-text">JavaScript</span>
+                </a></li>
+                <li><a href="#" onclick="filterByTech('react')">
+                    <i class="fa-brands fa-react"></i>
+                    <span class="nav-text">React</span>
+                </a></li>
+                <li><a href="#" onclick="filterByTech('nodejs')">
+                    <i class="fa-brands fa-node-js"></i>
+                    <span class="nav-text">Node.js</span>
+                </a></li>
+                <li><a href="#" onclick="filterByTech('python')">
+                    <i class="fa-brands fa-python"></i>
+                    <span class="nav-text">Python</span>
+                </a></li>
+                <li><a href="#" onclick="filterByTech('mongodb')">
+                    <i class="fa-solid fa-database"></i>
+                    <span class="nav-text">MongoDB</span>
+                </a></li>
+            </ul>
+        </div>
+
+        <div class="nav-section ListOfBookmarks">
+            <div class="title">
+                <h2>Liens Utiles</h2>
+            </div>
+            <ul class="nav-list">
+                <li><a href="https://github.com" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                    <span class="nav-text">GitHub</span>
+                </a></li>
+                <li><a href="https://linkedin.com" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <span class="nav-text">LinkedIn</span>
+                </a></li>
+                <li><a href="#" onclick="downloadCV()">
+                    <i class="fa-solid fa-file-pdf"></i>
+                    <span class="nav-text">CV PDF</span>
+                </a></li>
+                <li><a href="#" onclick="openBlog()">
+                    <i class="fa-solid fa-blog"></i>
+                    <span class="nav-text">Blog Tech</span>
+                </a></li>
+                <li><a href="#" onclick="showCertifications()">
+                    <i class="fa-solid fa-certificate"></i>
+                    <span class="nav-text">Certifications</span>
+                </a></li>
+            </ul>
+        </div>
+    </section>
+
+    <main>
+        <section id="Projects" class="main-section">
+            <h3><i class="fa-solid fa-folder-open"></i> Mes Projets</h3>
+            
+            <div class="project-grid" id="projectGrid">
+                <div class="project-card" data-tech="react nodejs" onclick="viewProject('ecommerce')">
+                    <h4>E-commerce Platform</h4>
+                    <p>Plateforme complète avec panier, paiement et gestion admin</p>
+                    <div class="tech-stack">
+                        <span class="tech-badge">React</span>
+                        <span class="tech-badge">Node.js</span>
+                        <span class="tech-badge">MongoDB</span>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-tech="vuejs javascript" onclick="viewProject('taskmanager')">
+                    <h4>Task Manager App</h4>
+                    <p>Application de gestion de tâches collaborative en temps réel</p>
+                    <div class="tech-stack">
+                        <span class="tech-badge">Vue.js</span>
+                        <span class="tech-badge">Socket.io</span>
+                        <span class="tech-badge">Express</span>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-tech="javascript" onclick="viewProject('weather')">
+                    <h4>Weather Dashboard</h4>
+                    <p>Interface météo interactive avec cartes et prévisions</p>
+                    <div class="tech-stack">
+                        <span class="tech-badge">JavaScript</span>
+                        <span class="tech-badge">API</span>
+                        <span class="tech-badge">Chart.js</span>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-tech="javascript" onclick="viewProject('portfolio3d')">
+                    <h4>Portfolio 3D</h4>
+                    <p>Site portfolio interactif avec animations Three.js</p>
+                    <div class="tech-stack">
+                        <span class="tech-badge">Three.js</span>
+                        <span class="tech-badge">WebGL</span>
+                        <span class="tech-badge">GSAP</span>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-tech="python" onclick="viewProject('aiassistant')">
+                    <h4>AI Assistant Bot</h4>
+                    <p>Chatbot intelligent avec traitement du langage naturel</p>
+                    <div class="tech-stack">
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">TensorFlow</span>
+                        <span class="tech-badge">Flask</span>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-tech="react nodejs" onclick="viewProject('socialnetwork')">
+                    <h4>Social Network</h4>
+                    <p>Réseau social avec posts, likes, commentaires et messagerie</p>
+                    <div class="tech-stack">
+                        <span class="tech-badge">React</span>
+                        <span class="tech-badge">GraphQL</span>
+                        <span class="tech-badge">PostgreSQL</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="toBottom">
+                <button onclick="openNewProjectModal()"><i class="fa-solid fa-plus"></i> Nouveau Projet</button>
+            </div>
+        </section>
+
+        <section id="Clients" class="main-section">
+            <h3><i class="fa-solid fa-users"></i> Clients & Collaborations</h3>
+            
+            <div class="client-list" id="clientList">
+                <div class="client-item" onclick="viewClient('techstart')">
+                    <div class="client-name">TechStart SAS</div>
+                    <div class="client-project">Refonte complète de leur plateforme web - En cours</div>
+                </div>
+                
+                <div class="client-item" onclick="viewClient('creative')">
+                    <div class="client-name">Creative Agency</div>
+                    <div class="client-project">Développement d'une app mobile iOS/Android - Terminé</div>
+                </div>
+                
+                <div class="client-item" onclick="viewClient('ecommerce')">
+                    <div class="client-name">E-commerce Plus</div>
+                    <div class="client-project">Optimisation performance et SEO - En cours</div>
+                </div>
+                
+                <div class="client-item" onclick="viewClient('local')">
+                    <div class="client-name">Local Business</div>
+                    <div class="client-project">Site vitrine avec système de réservation - Planifié</div>
+                </div>
+                
+                <div class="client-item" onclick="viewClient('startup')">
+                    <div class="client-name">Innovation Startup</div>
+                    <div class="client-project">MVP développement complet - En négociation</div>
+                </div>
+            </div>
+            
+            <div class="toBottom">
+                <button onclick="openNewClientModal()"><i class="fa-solid fa-handshake"></i> Nouveau Client</button>
+            </div>
+        </section>
+
+        <section id="BookmarksDeadline" class="main-section">
+            <h3><i class="fa-solid fa-calendar-check"></i> Échéances & Planning</h3>
+            
+            <div class="deadline-list" id="deadlineList">
+                <div class="deadline-item" onclick="editDeadline('app-mobile')">
+                    <div>
+                        <strong>Livraison App Mobile</strong>
+                        <div style="font-size: 13px; color: #94a3b8;">Version finale + tests</div>
+                    </div>
+                    <div class="deadline-date urgent">3 Oct</div>
+                </div>
+                
+                <div class="deadline-item" onclick="editDeadline('presentation')">
+                    <div>
+                        <strong>Présentation Client</strong>
+                        <div style="font-size: 13px; color: #94a3b8;">Demo des nouvelles fonctionnalités</div>
+                    </div>
+                    <div class="deadline-date">8 Oct</div>
+                </div>
+                
+                <div class="deadline-item" onclick="editDeadline('formation')">
+                    <div>
+                        <strong>Formation équipe</strong>
+                        <div style="font-size: 13px; color: #94a3b8;">Workshop React avancé</div>
+                    </div>
+                    <div class="deadline-date">15 Oct</div>
+                </div>
+                
+                <div class="deadline-item" onclick="editDeadline('certification')">
+                    <div>
+                        <strong>Certification AWS</strong>
+                        <div style="font-size: 13px; color: #94a3b8;">Examen Solutions Architect</div>
+                    </div>
+                    <div class="deadline-date">22 Oct</div>
+                </div>
+                
+                <div class="deadline-item" onclick="editDeadline('hackathon')">
+                    <div>
+                        <strong>Hackathon Tech</strong>
+                        <div style="font-size: 13px; color: #94a3b8;">Participation en équipe</div>
+                    </div>
+                    <div class="deadline-date">30 Oct</div>
+                </div>
+            </div>
+            
+            <div class="toBottom">
+                <button onclick="openNewDeadlineModal()"><i class="fa-solid fa-plus"></i> Ajouter</button>
+            </div>
+        </section>
+
+        <section id="Stats" class="main-section">
+            <h3><i class="fa-solid fa-chart-bar"></i> Statistiques & Activité</h3>
+            
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-bottom: 20px;">
+                <div style="background: rgba(255, 255, 255, 0.05); padding: 16px; border-radius: 8px; text-align: center;">
+                    <div style="font-size: 24px; font-weight: 700; color: #64ffda;">12</div>
+                    <div style="font-size: 12px; color: #94a3b8;">Projets Actifs</div>
+                </div>
+                <div style="background: rgba(255, 255, 255, 0.05); padding: 16px; border-radius: 8px; text-align: center;">
+                    <div style="font-size: 24px; font-weight: 700; color: #8b5cf6;">8</div>
+                    <div style="font-size: 12px; color: #94a3b8;">Clients Satisfaits</div>
+                </div>
+                <div style="background: rgba(255, 255, 255, 0.05); padding: 16px; border-radius: 8px; text-align: center;">
+                    <div style="font-size: 24px; font-weight: 700; color: #f59e0b;">156</div>
+                    <div style="font-size: 12px; color: #94a3b8;">Commits cette semaine</div>
+                </div>
+                <div style="background: rgba(255, 255, 255, 0.05); padding: 16px; border-radius: 8px; text-align: center;">
+                    <div style="font-size: 24px; font-weight: 700; color: #10b981;">95%</div>
+                    <div style="font-size: 12px; color: #94a3b8;">Taux de satisfaction</div>
+                </div>
+            </div>
+            
+            <div style="margin-bottom: 60px;">
+                <h4 style="margin-bottom: 12px; color: #94a3b8; font-size: 14px;">Langages les plus utilisés</h4>
+                <div style="space-y: 8px;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                        <span style="font-size: 13px;">JavaScript</span>
+                        <div style="flex: 1; margin: 0 12px; height: 6px; background: rgba(255,255,255,0.1); border-radius: 3px;">
+                            <div style="height: 100%; width: 85%; background: linear-gradient(90deg, #64ffda, #00bcd4); border-radius: 3px;"></div>
+                        </div>
+                        <span style="font-size: 12px; color: #64ffda;">85%</span>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                        <span style="font-size: 13px;">Python</span>
+                        <div style="flex: 1; margin: 0 12px; height: 6px; background: rgba(255,255,255,0.1); border-radius: 3px;">
+                            <div style="height: 100%; width: 70%; background: linear-gradient(90deg, #8b5cf6, #a855f7); border-radius: 3px;"></div>
+                        </div>
+                        <span style="font-size: 12px; color: #8b5cf6;">70%</span>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                        <span style="font-size: 13px;">React</span>
+                        <div style="flex: 1; margin: 0 12px; height: 6px; background: rgba(255,255,255,0.1); border-radius: 3px;">
+                            <div style="height: 100%; width: 90%; background: linear-gradient(90deg, #61dafb, #21d4fd); border-radius: 3px;"></div>
+                        </div>
+                        <span style="font-size: 12px; color: #61dafb;">90%</span>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                        <span style="font-size: 13px;">Node.js</span>
+                        <div style="flex: 1; margin: 0 12px; height: 6px; background: rgba(255,255,255,0.1); border-radius: 3px;">
+                            <div style="height: 100%; width: 75%; background: linear-gradient(90deg, #68a063, #8cc84b); border-radius: 3px;"></div>
+                        </div>
+                        <span style="font-size: 12px; color: #8cc84b;">75%</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="toBottom">
+                <button onclick="exportStats()"><i class="fa-solid fa-download"></i> Export</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal pour nouveau projet -->
+    <div id="newProjectModal" class="modal">
+        <div class="modal-content">
+            <h3><i class="fa-solid fa-plus"></i> Nouveau Projet</h3>
+            <form id="newProjectForm">
+                <div class="form-group">
+                    <label for="projectName">Nom du projet</label>
+                    <input type="text" id="projectName" required>
+                </div>
+                <div class="form-group">
+                    <label for="projectDescription">Description</label>
+                    <textarea id="projectDescription" rows="3" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="projectTech">Technologies (séparées par des virgules)</label>
+                    <input type="text" id="projectTech" placeholder="React, Node.js, MongoDB">
+                </div>
+                <div class="modal-buttons">
+                    <button type="button" class="btn btn-secondary" onclick="closeModal('newProjectModal')">Annuler</button>
+                    <button type="submit" class="btn btn-primary">Créer</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal pour nouveau client -->
+    <div id="newClientModal" class="modal">
+        <div class="modal-content">
+            <h3><i class="fa-solid fa-handshake"></i> Nouveau Client</h3>
+            <form id="newClientForm">
+                <div class="form-group">
+                    <label for="clientName">Nom du client</label>
+                    <input type="text" id="clientName" required>
+                </div>
+                <div class="form-group">
+                    <label for="clientProject">Description du projet</label>
+                    <textarea id="clientProject" rows="3" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="clientStatus">Statut</label>
+                    <select id="clientStatus" style="width: 100%; background: rgba(255, 255, 255, 0.1); border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 8px; padding: 12px; color: #fff;">
+                        <option value="En négociation">En négociation</option>
+                        <option value="En cours">En cours</option>
+                        <option value="Terminé">Terminé</option>
+                        <option value="Planifié">Planifié</option>
+                    </select>
+                </div>
+                <div class="modal-buttons">
+                    <button type="button" class="btn btn-secondary" onclick="closeModal('newClientModal')">Annuler</button>
+                    <button type="submit" class="btn btn-primary">Ajouter</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal pour nouvelle échéance -->
+    <div id="newDeadlineModal" class="modal">
+        <div class="modal-content">
+            <h3><i class="fa-solid fa-calendar-plus"></i> Nouvelle Échéance</h3>
+            <form id="newDeadlineForm">
+                <div class="form-group">
+                    <label for="deadlineTitle">Titre</label>
+                    <input type="text" id="deadlineTitle" required>
+                </div>
+                <div class="form-group">
+                    <label for="deadlineDescription">Description</label>
+                    <input type="text" id="deadlineDescription" required>
+                </div>
+                <div class="form-group">
+                    <label for="deadlineDate">Date d'échéance</label>
+                    <input type="date" id="deadlineDate" required style="color-scheme: dark;">
+                </div>
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" id="deadlineUrgent" style="margin-right: 8px;">
+                        Marquer comme urgent
+                    </label>
+                </div>
+                <div class="modal-buttons">
+                    <button type="button" class="btn btn-secondary" onclick="closeModal('newDeadlineModal')">Annuler</button>
+                    <button type="submit" class="btn btn-primary">Ajouter</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Notification -->
+    <div id="notification" class="notification"></div>
+    <script src="../assets/js/dashboard_1.js"></script>
 </body>
-</html> 

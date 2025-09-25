@@ -180,3 +180,8 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 AUTH_USER_MODEL = "accounts.Accounts"
+
+
+ACCOUNT_EMAIL_VERIFICATION = "none"  # pas besoin de vérifier l'email
+ACCOUNT_EMAIL_REQUIRED = False       # email pas obligatoire
+EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"  # en dev, affiche juste dans la console
