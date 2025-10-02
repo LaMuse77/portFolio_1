@@ -1,0 +1,1784 @@
+[INFO] 2025-10-02 09:10:06,511 django.utils.autoreload Watching for file changes with StatReloader
+[INFO] 2025-10-02 09:10:08,419 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:08,967 django.server "OPTIONS /dj-rest-auth/user/ HTTP/1.1" 200 0
+[INFO] 2025-10-02 09:10:09,396 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:10,187 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:10,368 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:10,483 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:10,960 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:11,558 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:11,680 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:12,461 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:12,559 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:12,703 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:12,795 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:12,963 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:13,892 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:13,957 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:14,700 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:14,887 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:15,032 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:16,082 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:16,116 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:16,138 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:16,650 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:16,707 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:16,770 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:17,320 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:17,326 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:17,412 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:17,481 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:17,857 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:17,886 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:17,901 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:18,237 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:18,322 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:18,846 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:19,350 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:19,559 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:19,651 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:19,740 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:19,752 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:20,316 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:20,379 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:21,214 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:21,384 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:21,805 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:23,125 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:24,288 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:24,867 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:24,907 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:24,975 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:25,280 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:25,376 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:25,489 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:25,861 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:25,952 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:26,007 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:27,547 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:27,602 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:27,680 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:28,410 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:28,467 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:28,541 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:28,654 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:28,749 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:29,510 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:29,557 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:29,644 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:30,163 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:30,206 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:30,276 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:30,648 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:30,756 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:30,891 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:30,906 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:31,187 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:31,211 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:31,585 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:32,232 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:32,276 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:33,597 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:34,314 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:35,063 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:35,251 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:35,322 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:36,046 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:36,093 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:36,182 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:36,438 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:36,732 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:37,137 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:37,436 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:37,737 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:38,059 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:38,439 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:39,719 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:40,119 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:40,553 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:42,012 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:42,103 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:42,145 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:42,522 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:42,799 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:42,866 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:42,985 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:43,182 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:43,404 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:43,589 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:43,878 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:43,998 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:44,225 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:44,516 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:45,566 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:46,064 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:46,535 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:46,957 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:47,233 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:47,303 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:47,382 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:47,471 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:47,896 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:47,932 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:48,216 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:48,287 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:48,633 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:48,670 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:48,890 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:49,227 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:49,441 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:49,873 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:50,151 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:51,016 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:51,388 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:52,215 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:53,009 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:53,595 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:53,980 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:54,086 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:54,371 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:54,941 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:55,467 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:55,865 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:56,467 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:56,583 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:56,726 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:56,867 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:57,099 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:57,270 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:57,398 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:57,654 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:57,995 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:58,519 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:58,646 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:58,680 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:58,766 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:10:59,050 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:10:59,593 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:00,359 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:00,601 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:00,857 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:01,062 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:01,324 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:01,364 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:01,712 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:02,219 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:02,712 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:02,878 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:02,883 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:02,930 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:03,323 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:03,338 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:03,797 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:04,129 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:04,489 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:04,590 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:04,774 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:04,922 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:05,135 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:05,485 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:05,518 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:05,597 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:05,673 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:05,838 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:06,087 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:06,370 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:06,435 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:06,492 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:07,100 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:08,152 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:08,614 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:08,705 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:09,116 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:09,232 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:09,583 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:09,918 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:10,487 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:10,548 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:10,960 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:11,104 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:11,164 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:11,251 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:11,503 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:11,999 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:12,030 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:12,483 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:12,526 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:12,830 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:12,940 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:13,094 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:13,433 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:13,475 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:13,520 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:14,609 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:14,704 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:14,860 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:15,789 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:15,840 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:15,921 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:16,005 django.server "OPTIONS /dj-rest-auth/user/ HTTP/1.1" 200 0
+[INFO] 2025-10-02 09:11:16,308 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:17,136 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:18,022 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:18,666 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:18,707 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:18,713 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:18,819 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:19,311 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:19,449 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:19,875 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:19,981 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:20,025 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:20,108 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:20,394 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:21,737 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:21,965 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:22,605 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:22,708 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:22,857 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:23,334 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:23,390 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:23,640 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:24,079 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:24,116 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:24,532 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:24,630 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:24,774 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:24,928 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:25,117 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:25,191 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:25,257 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:25,629 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:25,672 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:25,743 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:25,939 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:26,053 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:26,262 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:26,327 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:26,879 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:26,960 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:26,999 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:27,087 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:29,315 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:30,132 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:30,698 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:31,000 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:31,102 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:31,232 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:31,332 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:31,856 django.server "OPTIONS /dj-rest-auth/user/ HTTP/1.1" 200 0
+[INFO] 2025-10-02 09:11:31,937 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:31,956 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:32,134 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:32,744 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:32,959 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:33,099 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:33,835 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:33,883 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:34,360 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:34,458 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:34,495 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:35,013 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:35,024 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:35,503 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:35,905 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:36,549 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:36,630 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:36,742 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:36,766 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:37,221 django.server "OPTIONS /dj-rest-auth/user/ HTTP/1.1" 200 0
+[INFO] 2025-10-02 09:11:37,296 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:37,391 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:37,634 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:37,694 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:37,806 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:37,880 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:38,145 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:38,184 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:38,251 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:38,848 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:39,050 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:39,184 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:39,275 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:39,442 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:40,004 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:40,038 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:40,083 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:40,143 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:40,762 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:40,854 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:40,956 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:41,109 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:41,593 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:41,615 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:41,648 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:41,707 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:42,187 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:42,250 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:42,288 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:42,344 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:43,409 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:43,687 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:43,779 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:43,906 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:44,286 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:44,903 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:44,964 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:45,489 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:45,520 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:45,565 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:45,627 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:46,188 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:46,247 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:46,864 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:46,901 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:46,961 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:47,044 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:47,639 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:47,682 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:47,686 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:48,208 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:48,594 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:48,795 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:48,836 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:48,924 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:48,952 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:49,312 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:49,529 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:49,618 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:50,391 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:51,670 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:51,984 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:52,135 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:52,330 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:52,784 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:53,263 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:53,651 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:53,714 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:54,418 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:54,546 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:54,596 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:11:54,612 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:59,016 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:11:59,328 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:12:19,003 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:12:23,798 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:12:28,892 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:12:29,652 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:12:30,270 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:12:30,556 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:12:31,447 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:12:31,864 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:12:33,169 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:12:33,297 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:12:33,359 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:12:33,635 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:12:34,198 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:12:34,224 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:12:34,288 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:12:35,143 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:12:35,292 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:12:37,808 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:12:38,379 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:12:39,137 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:12:39,152 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:12:39,242 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:12:39,474 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:12:40,095 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:12:40,464 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:12:40,620 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:12:40,743 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:12:41,236 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:12:41,359 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:12:41,699 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:12:42,092 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:12:42,803 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:12:43,859 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:12:44,332 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:12:44,965 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:12:45,290 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:12:45,341 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:12:45,429 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:12:46,214 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:12:46,512 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:12:46,724 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:12:46,831 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:12:47,467 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:12:47,786 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:12:48,770 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:12:48,783 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:12:48,855 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:12:51,183 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:12:51,533 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:12:51,923 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:12:52,339 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:12:52,758 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:12:53,142 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:12:53,455 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:12:53,499 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:17,722 django.utils.autoreload Watching for file changes with StatReloader
+[INFO] 2025-10-02 09:14:19,869 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:19,914 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:19,922 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:20,364 django.server "OPTIONS /dj-rest-auth/user/ HTTP/1.1" 200 0
+[INFO] 2025-10-02 09:14:20,401 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:20,437 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:20,439 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:14:20,562 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:20,667 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:20,669 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:20,769 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:20,801 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:20,808 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:20,833 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:20,907 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:20,908 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:20,958 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:21,016 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:21,053 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:21,057 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:21,107 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:21,120 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:14:21,339 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:21,399 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:21,407 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:21,611 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:21,630 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:21,696 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:21,704 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:14:21,741 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:21,754 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:21,777 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:21,822 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:21,823 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:21,924 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:21,967 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:21,969 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:22,257 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:22,347 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:22,354 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:22,373 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:22,424 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:22,494 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:22,512 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:22,511 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:22,520 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:14:22,606 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:22,652 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:22,654 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:22,905 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:23,020 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:23,021 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:23,031 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:23,037 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:23,090 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:23,093 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:23,132 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:23,140 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:14:23,156 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:23,193 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:23,195 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:23,556 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:23,641 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:23,648 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:14:23,712 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:23,745 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:23,749 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:23,756 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:23,800 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:23,801 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:24,901 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:24,985 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:24,993 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:14:25,195 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:25,339 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:25,357 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:25,447 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:25,504 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:25,506 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:25,904 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:25,944 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:25,946 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:14:26,113 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:26,148 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:26,149 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:26,627 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:26,657 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:26,658 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:14:26,681 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:26,715 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:26,717 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:26,726 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:26,761 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:26,763 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:26,808 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:26,837 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:26,838 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:27,208 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:27,293 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:27,294 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:14:27,301 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:27,429 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:27,430 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:27,441 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:27,517 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:27,518 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:27,563 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:27,594 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:27,595 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:28,056 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:28,190 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:28,206 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:28,226 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:28,271 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:28,272 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:28,355 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:28,479 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:28,535 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:28,548 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:28,548 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:28,550 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:28,561 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:14:28,599 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:28,613 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:29,010 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:29,039 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:29,081 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:29,083 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:14:29,120 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:29,122 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:29,135 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:29,169 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:29,173 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:29,651 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:29,659 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:29,701 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:29,704 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:29,732 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:29,749 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:14:29,754 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:29,841 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:29,853 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:29,854 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:29,911 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:29,912 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:30,430 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:30,491 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:30,492 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:14:31,836 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:31,893 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:31,898 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:32,501 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:32,545 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:32,549 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:32,559 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:32,634 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:32,640 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:14:32,758 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:32,843 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:32,853 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:33,169 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:33,272 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:33,284 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:35,542 django.server "OPTIONS /dj-rest-auth/user/ HTTP/1.1" 200 0
+[INFO] 2025-10-02 09:14:35,549 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:35,600 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:35,600 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:14:38,598 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:38,850 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:38,860 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:14:39,041 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:39,106 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:39,111 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:39,613 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:39,662 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:39,663 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:39,736 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:39,797 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:39,800 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:39,811 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:39,917 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:39,934 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:39,990 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:40,035 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:40,037 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:40,387 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:40,463 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:40,464 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 94
+[INFO] 2025-10-02 09:14:42,252 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:42,284 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:42,286 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:42,889 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:43,055 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:43,060 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:43,214 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:43,793 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:43,796 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:43,813 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:43,892 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:43,894 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:44,438 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:44,470 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:44,472 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:44,922 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:45,013 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:45,023 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:45,055 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:45,176 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:45,180 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:45,226 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:45,306 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:45,307 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:45,716 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:45,786 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:45,790 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:46,206 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:46,500 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:46,505 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:46,756 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:46,803 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:46,810 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:48,040 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:48,117 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:48,120 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:48,212 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:48,418 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:48,419 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:49,225 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:49,283 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:49,289 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:49,701 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:49,839 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:49,845 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:49,956 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:50,104 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:50,109 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:51,103 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:51,383 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:51,407 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:51,959 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:52,012 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:52,020 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:52,045 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:52,104 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:52,105 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:52,596 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:52,640 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:52,641 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:52,692 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:52,734 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:52,735 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:53,304 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:53,343 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:53,345 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:53,353 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:53,393 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:53,394 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:53,438 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:53,461 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:53,462 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:53,868 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:53,913 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:53,914 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:53,920 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:53,966 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:53,970 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:54,012 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:54,043 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:54,044 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:54,482 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:54,547 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:54,550 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:54,565 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:54,605 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:54,607 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:54,655 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:54,681 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:54,682 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:55,136 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:55,175 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:55,180 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:55,230 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:55,272 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:55,275 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:55,283 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:55,350 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:55,356 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:55,887 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:55,954 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:55,955 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:55,982 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:56,010 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:56,010 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:56,054 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:56,073 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:56,074 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:56,526 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:56,559 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:56,560 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:56,565 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:56,589 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:56,591 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:57,209 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:57,259 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:57,261 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:57,272 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:57,306 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:57,309 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:57,354 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:57,384 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:57,385 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:58,414 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:58,465 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:58,467 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:58,652 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:58,748 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:58,758 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:58,764 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:58,848 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:58,850 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:59,303 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:59,389 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:59,390 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:59,877 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:59,928 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:59,929 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:14:59,956 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:14:59,992 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:14:59,993 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:00,047 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:00,074 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:00,077 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:00,574 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:00,627 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:00,628 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:00,647 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:00,673 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:00,673 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:00,717 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:00,737 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:00,738 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:01,225 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:01,256 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:01,258 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:01,318 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:01,357 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:01,360 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:01,381 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:01,468 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:01,470 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:02,248 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:02,359 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:02,360 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:02,405 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:02,521 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:02,522 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:02,725 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:02,772 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:02,773 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:03,980 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:04,046 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:04,048 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:05,320 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:05,459 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:05,468 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:05,538 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:06,079 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:06,087 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:06,131 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:06,173 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:06,175 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:06,546 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:06,588 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:06,589 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:06,599 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:06,632 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:06,633 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:06,902 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:06,938 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:06,940 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:06,979 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:07,004 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:07,004 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:07,309 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:07,401 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:07,405 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:07,428 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:07,464 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:07,467 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:07,509 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:07,528 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:07,529 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:07,991 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:08,023 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:08,025 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:08,035 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:08,074 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:08,075 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:09,502 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:09,550 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:09,553 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:10,104 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:10,142 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:10,143 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:10,152 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:10,183 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:10,184 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:10,232 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:10,264 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:10,265 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:10,939 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:11,599 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:11,602 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:11,878 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:11,967 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:11,972 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:12,658 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:12,699 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:12,701 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:12,739 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:12,780 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:12,781 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:12,914 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:13,019 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:13,021 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:14,220 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:14,246 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:14,247 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:14,803 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:14,831 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:14,833 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:14,838 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:14,866 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:14,867 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:14,913 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:14,937 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:14,938 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:15,490 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:15,536 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:15,539 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:15,554 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:15,598 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:15,599 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:15,649 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:15,695 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:15,697 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:15,967 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:16,100 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:16,101 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:16,184 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:16,229 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:16,230 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:17,377 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:17,433 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:17,434 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:17,499 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:17,531 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:17,533 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:19,330 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:19,426 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:19,471 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:21,790 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:21,824 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:21,825 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:21,854 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:21,892 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:21,893 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:21,939 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:21,961 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:21,964 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:22,691 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:22,754 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:22,757 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:23,258 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:23,277 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:23,278 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:23,282 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:23,300 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:23,301 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:23,345 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:23,362 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:23,362 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:23,822 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:23,856 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:23,857 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:24,194 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:24,315 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:24,326 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:24,333 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:24,387 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:24,389 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:24,912 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:24,958 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:24,959 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:25,860 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:25,945 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:25,947 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:26,126 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:26,180 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:26,181 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:30,448 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:30,476 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:30,477 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:30,484 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:30,513 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:30,514 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:30,558 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:30,578 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:30,579 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:31,159 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:31,240 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:31,241 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:31,737 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:31,962 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:32,049 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:32,335 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:32,536 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:32,539 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:32,574 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:32,628 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:32,631 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:36,635 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:36,703 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:36,705 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:36,727 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:36,753 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:36,754 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:36,802 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:36,826 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:36,827 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:37,411 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:37,434 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:37,435 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:37,441 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:37,476 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:37,479 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:37,525 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:37,554 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:37,555 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:40,967 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:41,129 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:41,133 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:41,140 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:41,312 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:41,315 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:41,377 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:41,435 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:41,444 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:41,773 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:41,832 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:41,835 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:42,435 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:42,470 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:42,472 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:42,500 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:42,530 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:42,532 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:42,577 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:42,599 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:42,600 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:43,108 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:43,151 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:43,152 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:43,161 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:43,189 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:43,190 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:43,235 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:43,261 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:43,262 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:44,063 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:44,090 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:44,091 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:44,097 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:44,118 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:44,119 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:44,666 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:44,692 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:44,693 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:44,697 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:44,716 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:44,717 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:44,761 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:44,783 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:44,784 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:45,188 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:45,219 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:45,236 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:45,255 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:45,282 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:45,284 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:45,327 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:45,342 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:45,343 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:45,810 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:45,857 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:45,858 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:45,884 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:45,908 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:45,910 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:45,953 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:45,968 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:45,969 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:46,408 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:46,438 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:46,440 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:46,461 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:46,491 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:46,491 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:46,534 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:46,548 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:46,549 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:47,042 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:47,068 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:47,071 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:47,082 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:47,115 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:47,116 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:47,160 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:47,186 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:47,187 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:47,667 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:47,703 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:47,706 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:47,711 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:47,742 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:47,743 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:47,788 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:47,812 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:47,813 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:49,764 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:49,840 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:49,851 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:49,927 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:49,962 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:49,965 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:49,975 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:50,005 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:50,006 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:50,519 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:50,553 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:50,555 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:51,100 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:51,133 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:51,135 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:51,140 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:51,160 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:51,162 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:51,208 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:51,230 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:51,231 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:51,669 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:51,738 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:51,739 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:51,786 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:51,812 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:51,813 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:51,857 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:51,880 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:51,881 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:52,495 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:52,527 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:52,533 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:52,548 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:52,586 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:52,588 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:52,633 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:52,655 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:52,656 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:53,088 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:53,115 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:53,118 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:53,124 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:53,147 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:53,148 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:53,191 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:53,207 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:53,208 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:53,658 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:53,690 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:53,691 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:53,698 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:53,731 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:53,732 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:53,775 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:53,791 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:53,791 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:54,243 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:54,281 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:54,287 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:54,627 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:54,666 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:54,669 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:54,673 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:54,695 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:54,696 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:55,140 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:55,195 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:55,199 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:55,204 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:55,232 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:55,234 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:55,280 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:55,301 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:55,302 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:55,767 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:56,513 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:56,571 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:56,742 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:56,857 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:56,859 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:56,872 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:56,937 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:56,940 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:57,375 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:57,425 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:57,427 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:57,998 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:58,077 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:58,078 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:58,125 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:58,159 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:58,160 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:58,591 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:58,629 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:58,633 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:58,655 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:58,688 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:58,690 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:58,733 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:58,749 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:58,750 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:59,216 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:59,273 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:59,275 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:59,319 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:59,354 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:59,359 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:15:59,364 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:15:59,401 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:15:59,403 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:00,289 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:00,321 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:00,325 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:00,334 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:00,363 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:00,365 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:00,923 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:00,970 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:00,971 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:00,991 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:01,083 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:01,089 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:03,651 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:04,006 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:04,015 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:05,143 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:05,461 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:05,464 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:05,859 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:05,911 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:05,913 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:06,432 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:06,461 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:06,463 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:06,469 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:06,488 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:06,489 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:08,284 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:08,329 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:08,330 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:08,346 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:08,387 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:08,390 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:09,293 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:09,328 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:09,330 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:09,368 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:09,420 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:09,424 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:09,472 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:09,506 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:09,507 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:09,994 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:10,031 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:10,036 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:10,288 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:10,318 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:10,319 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:10,324 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:10,353 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:10,355 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:10,875 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:10,902 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:10,905 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:10,938 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:10,942 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:10,958 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:10,963 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:10,991 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:10,992 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:13,321 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:13,355 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:13,359 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:14,253 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:14,442 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:14,447 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:14,742 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:14,838 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:14,860 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:14,908 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:14,969 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:14,972 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:15,697 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:15,789 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:15,795 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:16,229 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:16,267 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:16,269 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:16,275 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:16,307 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:16,308 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:16,585 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:16,619 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:16,630 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:17,095 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:17,136 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:17,140 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:17,171 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:17,209 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:17,213 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:17,259 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:17,300 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:17,302 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:17,947 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:18,004 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:18,005 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:18,055 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:18,088 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:18,090 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:18,106 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:18,149 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:18,154 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:18,679 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:18,710 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:18,712 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:18,730 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:18,758 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:18,760 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:18,831 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:18,862 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:18,864 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:19,533 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:19,573 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:19,576 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:19,585 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:19,626 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:19,628 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:20,591 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:20,624 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:20,625 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:21,014 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:21,044 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:21,045 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:21,766 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:22,068 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:22,086 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:22,398 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:22,908 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:22,916 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:23,149 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:23,356 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:23,359 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:24,184 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:24,612 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:24,613 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:25,100 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:25,152 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:25,161 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:25,244 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:25,279 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:25,286 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:25,665 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:25,730 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:25,739 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:26,632 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:26,676 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:26,678 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:26,683 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:26,760 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:26,770 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:26,877 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:26,924 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:26,926 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:27,504 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:27,603 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:27,608 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:27,632 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:27,662 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:27,663 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:27,710 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:27,740 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:27,742 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:28,511 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:28,551 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:28,552 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:29,093 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:29,122 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:29,126 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:29,141 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:29,189 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:29,193 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:29,248 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:29,289 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:29,290 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:29,991 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:30,060 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:30,083 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:30,751 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:30,971 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:30,974 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:31,044 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:31,100 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:31,102 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:31,998 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:32,065 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:32,072 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:32,077 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:32,116 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:32,118 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:32,767 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:32,811 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:32,818 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:32,856 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:32,892 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:32,895 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:32,944 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:32,986 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:32,989 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:33,423 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:33,471 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:33,472 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:33,494 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:33,526 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:33,527 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:34,090 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:34,131 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:34,172 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:34,173 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:34,234 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:34,299 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:34,867 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:34,932 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:34,933 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:35,610 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:35,648 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:35,649 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:35,663 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:35,701 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:35,703 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:35,749 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:35,776 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:35,779 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:37,675 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:37,805 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:37,818 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:37,883 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:38,026 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:38,028 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:38,098 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:38,140 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:38,141 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:38,159 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:38,218 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:38,220 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:39,914 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:39,950 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:39,951 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:39,964 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:39,994 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:39,997 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:40,578 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:40,607 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:40,611 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:40,660 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:40,685 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:40,687 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:41,235 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:41,274 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:41,275 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:41,399 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:41,466 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:41,468 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:41,471 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:41,552 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:41,555 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:46,119 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:46,150 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:46,163 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:46,686 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:46,713 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:46,714 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:47,022 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:47,059 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:47,062 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:47,083 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:47,173 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:47,174 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:47,659 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:47,709 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:47,716 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:47,729 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:47,769 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:47,771 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:48,580 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:48,616 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:48,618 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:48,626 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:48,653 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:48,654 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:48,659 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:48,679 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:48,680 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:49,098 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:49,128 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:49,130 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:49,153 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:49,181 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:49,182 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:49,226 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:49,242 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:49,243 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:50,409 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:50,472 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:50,484 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:50,487 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:50,540 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:50,545 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:50,554 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:50,645 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:50,646 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:51,546 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:51,606 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:51,608 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:51,693 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:51,759 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:51,760 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:52,265 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:52,308 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:52,311 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:52,325 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:52,376 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:52,379 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:52,426 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:52,471 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:52,473 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:53,020 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:53,080 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:53,082 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:53,238 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:53,339 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:53,340 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:53,472 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:53,506 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:53,511 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:53,598 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:53,624 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:53,625 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:54,328 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:54,355 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:54,357 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:55,006 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:55,046 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:55,052 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:55,058 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:55,082 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:55,083 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:55,543 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:55,576 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:55,577 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:55,881 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:55,926 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:55,928 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:55,936 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:55,975 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:55,978 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:56,532 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:56,568 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:56,570 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:56,788 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:56,828 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:56,831 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:56,837 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:56,868 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:56,869 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:58,208 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:58,832 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:58,833 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:58,849 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:58,886 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:58,887 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:58,934 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:58,974 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:58,976 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:16:59,455 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:16:59,555 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:16:59,556 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:00,050 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:00,092 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:00,093 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:00,106 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:00,140 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:00,141 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:00,184 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:00,202 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:00,203 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:01,865 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:01,897 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:01,898 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:01,908 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:01,953 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:01,959 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:02,084 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:02,140 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:02,143 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:02,690 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:02,722 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:02,725 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:02,759 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:02,783 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:02,785 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:03,377 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:03,436 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:03,444 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:04,496 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:04,574 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:04,575 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:04,629 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:04,676 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:04,678 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:05,248 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:05,296 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:05,298 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:05,829 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:05,858 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:05,859 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:05,866 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:05,888 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:05,889 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:08,239 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:08,288 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:08,290 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:08,302 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:08,334 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:08,338 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:08,413 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:08,462 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:08,464 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:08,717 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:08,802 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:08,810 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:09,260 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:09,291 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:09,292 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:09,313 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:09,343 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:09,345 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:09,394 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:09,417 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:09,420 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:10,769 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:10,845 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:10,847 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:10,855 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:10,898 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:10,901 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:10,947 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:10,977 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:10,978 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:11,581 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:11,705 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:11,706 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:12,589 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:12,618 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:12,621 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:13,162 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:13,179 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:13,180 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:13,184 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:13,200 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:13,201 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:13,250 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:13,300 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:13,302 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:15,012 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:15,049 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:15,050 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:15,058 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:15,086 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:15,089 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:15,143 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:15,166 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:15,167 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:15,828 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:15,867 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:15,869 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:16,397 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:16,421 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:16,422 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:16,427 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:16,449 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:16,449 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:16,498 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:16,529 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:16,530 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:17,064 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:17,717 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:17,730 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:17,868 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:17,986 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:17,992 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:18,006 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:18,060 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:18,062 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:18,940 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:18,976 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:18,980 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:19,520 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:19,582 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:19,585 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:19,596 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:19,630 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:19,631 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:20,151 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:20,194 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:20,197 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:20,217 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:20,254 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:20,255 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:20,299 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:20,319 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:20,319 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:20,843 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:20,893 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:20,897 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:20,958 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:21,030 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:21,032 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:21,125 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:21,175 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:21,177 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:21,656 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:21,693 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:21,700 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:21,746 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:21,792 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:21,794 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:22,095 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:22,129 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:22,130 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:22,160 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:22,199 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:22,200 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:22,249 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:22,278 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:22,282 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:22,739 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:22,768 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:22,769 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:22,775 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:22,820 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:22,821 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:22,871 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:22,901 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:22,903 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:23,446 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:23,484 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:23,493 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:23,498 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:23,520 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:23,521 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:23,679 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:24,549 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:24,555 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:26,199 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:26,244 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:26,247 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:26,788 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:26,829 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:26,830 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:26,836 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:26,891 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:26,895 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:26,943 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:26,969 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:26,970 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:27,359 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:27,407 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:27,411 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:27,417 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:27,442 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:27,444 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:27,944 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:27,998 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:28,009 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:28,084 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:28,195 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:28,196 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:28,200 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:28,223 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:28,224 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:28,561 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:28,605 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:28,606 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:28,631 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:28,664 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:28,666 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:28,709 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:28,731 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:28,732 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:29,162 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:29,190 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:29,206 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:29,210 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:29,236 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:29,238 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:29,245 frontend_ops Front request by Anonymous | GET /dj-rest-auth/user/ | Data: {}
+[INFO] 2025-10-02 09:17:29,271 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:17:29,272 django.server "GET /dj-rest-auth/user/ HTTP/1.1" 200 88
+[INFO] 2025-10-02 09:17:51,144 frontend_ops Front request by Anonymous | POST /dj-rest-auth/login/ | Data: {}
+[INFO] 2025-10-02 09:17:53,145 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:18:27,936 django.server "OPTIONS /dj-rest-auth/login/ HTTP/1.1" 200 0
+[INFO] 2025-10-02 09:18:27,940 frontend_ops Front request by Anonymous | POST /dj-rest-auth/login/ | Data: {}
+[INFO] 2025-10-02 09:18:30,729 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:19:26,809 django.server "OPTIONS /dj-rest-auth/login/ HTTP/1.1" 200 0
+[INFO] 2025-10-02 09:19:27,045 frontend_ops Front request by Anonymous | POST /dj-rest-auth/login/ | Data: {}
+[INFO] 2025-10-02 09:19:29,462 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:19:57,903 django.utils.autoreload /home/lamuse/1_#Project_W/portfolio_1/backend/portfolio/portfolio/settings.py changed, reloading.
+[INFO] 2025-10-02 09:20:05,526 django.utils.autoreload Watching for file changes with StatReloader
+[INFO] 2025-10-02 09:20:42,013 django.server "OPTIONS /dj-rest-auth/login/ HTTP/1.1" 200 0
+[INFO] 2025-10-02 09:20:42,019 frontend_ops Front request by Anonymous | POST /dj-rest-auth/login/ | Data: {}
+[INFO] 2025-10-02 09:20:44,749 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:21:02,804 django.utils.autoreload /home/lamuse/1_#Project_W/portfolio_1/backend/portfolio/portfolio/settings.py changed, reloading.
+[INFO] 2025-10-02 09:21:06,423 django.utils.autoreload Watching for file changes with StatReloader
+[INFO] 2025-10-02 09:21:44,617 django.server "OPTIONS /dj-rest-auth/login/ HTTP/1.1" 200 0
+[INFO] 2025-10-02 09:21:44,634 frontend_ops Front request by Anonymous | POST /dj-rest-auth/login/ | Data: {}
+[INFO] 2025-10-02 09:21:47,741 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:22:02,347 django.utils.autoreload /home/lamuse/1_#Project_W/portfolio_1/backend/portfolio/portfolio/settings.py changed, reloading.
+[INFO] 2025-10-02 09:22:03,479 django.utils.autoreload Watching for file changes with StatReloader
+[INFO] 2025-10-02 09:22:44,877 django.server "OPTIONS /dj-rest-auth/login/ HTTP/1.1" 200 0
+[INFO] 2025-10-02 09:22:44,894 frontend_ops Front request by Anonymous | POST /dj-rest-auth/login/ | Data: {}
+[INFO] 2025-10-02 09:22:46,623 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:22:56,581 django.server "OPTIONS /dj-rest-auth/login/ HTTP/1.1" 200 0
+[INFO] 2025-10-02 09:22:56,587 frontend_ops Front request by Anonymous | POST /dj-rest-auth/login/ | Data: {}
+[INFO] 2025-10-02 09:22:59,348 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:23:07,057 django.server "OPTIONS /dj-rest-auth/login/ HTTP/1.1" 200 0
+[INFO] 2025-10-02 09:23:07,070 frontend_ops Front request by Anonymous | POST /dj-rest-auth/login/ | Data: {}
+[INFO] 2025-10-02 09:23:08,571 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:24:15,413 django.server "OPTIONS /dj-rest-auth/login/ HTTP/1.1" 200 0
+[INFO] 2025-10-02 09:24:15,429 frontend_ops Front request by Anonymous | POST /dj-rest-auth/login/ | Data: {}
+[INFO] 2025-10-02 09:24:17,986 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:25:12,629 frontend_ops Front request by Anonymous | POST /dj-rest-auth/login/ | Data: {}
+[INFO] 2025-10-02 09:25:15,057 frontend_ops Response status: 200
+[INFO] 2025-10-02 09:50:47,618 django.utils.autoreload /home/lamuse/1_#Project_W/portfolio_1/backend/portfolio/portfolio/settings.py changed, reloading.
+[INFO] 2025-10-02 09:50:49,269 django.utils.autoreload Watching for file changes with StatReloader
+[INFO] 2025-10-02 09:50:54,718 django.utils.autoreload /home/lamuse/1_#Project_W/portfolio_1/backend/portfolio/portfolio/settings.py changed, reloading.

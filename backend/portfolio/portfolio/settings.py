@@ -37,8 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'accounts',
 
+    'accounts',
+    'rest_framework',
     'Worker_1',
     'rest_framework.authtoken',
     'corsheaders',
@@ -185,3 +186,7 @@ AUTH_USER_MODEL = "accounts.Accounts"
 ACCOUNT_EMAIL_VERIFICATION = "none"  # pas besoin de vérifier l'email
 ACCOUNT_EMAIL_REQUIRED = False       # email pas obligatoire
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"  # en dev, affiche juste dans la console
+
+
+
+

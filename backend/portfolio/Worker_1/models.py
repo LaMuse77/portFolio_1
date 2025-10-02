@@ -18,7 +18,11 @@ class Project(models.Model):
     link = models.URLField(blank=True, null=True)  # lien vers le projet en ligne
     github = models.URLField(blank=True, null=True)  # lien vers le repo GitHub
     created_at = models.DateField(auto_now_add=True)
-
+    status = models.CharField(max_length=50, choices=[
+        ('ongoing', 'En cours'),
+        ('completed', 'Terminé'),
+        ('planned', 'Planifié')
+    ], default='planned')
     # relation avec Stack
     stacks = models.ManyToManyField(Stack, related_name="projects")
 
