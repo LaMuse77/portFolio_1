@@ -25,6 +25,8 @@ class Project(models.Model):
     ], default='planned')
     # relation avec Stack
     stacks = models.ManyToManyField(Stack, related_name="projects")
+    owner = models.ForeignKey('accounts.Accounts', on_delete=models.CASCADE, related_name="projects")
+
 
     def __str__(self):
         return self.title

@@ -2,6 +2,8 @@
 
 // all about register 
 
+
+
 const form = document.getElementById('registerForm');
 const errorDiv = document.getElementById('error');
 const successDiv = document.getElementById('success');

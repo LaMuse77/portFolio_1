@@ -1,5 +1,3 @@
-// api-service.js
-
 
 async function loadUserProfile() {
     const token = localStorage.getItem("authToken");
@@ -40,30 +38,29 @@ async function loadUserProfile() {
     }
 }
 
-document.addEventListener("DOMContentLoaded", loadUserProfile);
-
 const API_BASE_URL = 'http://localhost:8000/api';
-const AUTH_TOKEN = localStorage.getItem('authToken');
+const getAuthToken = () => localStorage.getItem('authToken');
 
 const getHeaders = (includeAuth = false) => {
     const headers = {
         'Content-Type': 'application/json',
     };
-    if (includeAuth && AUTH_TOKEN) {
-        headers['Authorization'] = `Token ${AUTH_TOKEN}`;
+    const token = getAuthToken();
+    if (includeAuth && token) {
+        headers['Authorization'] = `Token ${token}`;
     }
     return headers;
 };
 
 const getFormHeaders = (includeAuth = false) => {
     const headers = {};
-    if (includeAuth && AUTH_TOKEN) {
-        headers['Authorization'] = `Token ${AUTH_TOKEN}`;
+    const token = getAuthToken();
+    if (includeAuth && token) {
+        headers['Authorization'] = `Token ${token}`;
     }
     return headers;
 };
 
-// Projets
 async function getAllProjects() {
     try {
         const response = await fetch(`${API_BASE_URL}/projects/`, {
@@ -74,7 +71,7 @@ async function getAllProjects() {
         return await response.json();
     } catch (error) {
         console.error('Erreur lors de la récupération des projets:', error);
-        showNotification('Erreur de chargement des projets');
+        showNotification('❌ Erreur de chargement des projets');
         return [];
     }
 }
@@ -89,7 +86,7 @@ async function getProjectById(projectId) {
         return await response.json();
     } catch (error) {
         console.error('Erreur lors de la récupération du projet:', error);
-        showNotification('Erreur de chargement du projet');
+        showNotification('❌ Erreur de chargement du projet');
         return null;
     }
 }
@@ -214,7 +211,6 @@ async function uploadProjectImage(projectId, imageFile) {
     }
 }
 
-// Stacks
 async function getAllStacks() {
     try {
         const response = await fetch(`${API_BASE_URL}/stacks/`, {
@@ -229,22 +225,35 @@ async function getAllStacks() {
     }
 }
 
-async function createStack(stackData) {
-    try {
-        const response = await fetch(`${API_BASE_URL}/stacks/`, {
-            method: 'POST',
-            headers: getHeaders(true),
-            body: JSON.stringify(stackData)
-        });
-        if (!response.ok) throw new Error(`Erreur HTTP: ${response.status}`);
-        const newStack = await response.json();
-        showNotification('✅ Technologie créée avec succès!');
-        return newStack;
-    } catch (error) {
-        console.error('Erreur lors de la création de la stack:', error);
-        showNotification('❌ Erreur lors de la création de la technologie');
-        return null;
+async function createStacks(stacksData) {
+    const createdStacks = [];
+    for (const stack of stacksData) {
+        try {
+            const formData = new FormData();
+            formData.append('name', stack.name);
+            if (stack.icon) {
+                formData.append('icon', stack.icon);
+            }
+            const response = await fetch(`${API_BASE_URL}/stacks/`, {
+                method: 'POST',
+                headers: getFormHeaders(true),
+                body: formData
+            });
+            if (!response.ok) {
+                const errorData = await response.json();
+                throw new Error(JSON.stringify(errorData));
+            }
+            const newStack = await response.json();
+            createdStacks.push(newStack);
+        } catch (error) {
+            console.error(`Erreur lors de la création de la stack ${stack.name}:`, error);
+            showNotification(`❌ Erreur lors de la création de ${stack.name}`);
+        }
     }
+    if (createdStacks.length > 0) {
+        showNotification(`✅ ${createdStacks.length} technologie(s) créée(s) avec succès!`);
+    }
+    return createdStacks;
 }
 
 async function deleteStack(stackId) {
@@ -266,7 +275,6 @@ async function deleteStack(stackId) {
     }
 }
 
-// Authentification
 async function login(username, password) {
     try {
         const response = await fetch('http://localhost:8000/dj-rest-auth/login/', {
@@ -302,11 +310,14 @@ async function logout() {
     }
 }
 
-// Statistiques
 function getProjectStats(projects) {
     const total = projects.length;
     const ongoing = projects.filter(p => p.status === 'ongoing').length;
     const completed = projects.filter(p => p.status === 'completed').length;
     const planned = projects.filter(p => p.status === 'planned').length;
     return { total, ongoing, completed, planned };
+}
+
+function isAuthenticated() {
+    return !!localStorage.getItem('authToken');
 }

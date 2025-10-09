@@ -1035,3 +1035,61 @@ main {
     --accent-cyan: #00fff0;
   }
 }
+
+
+#newProjectModal, #authModal {
+    width: 500px;
+    max-width: 200%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    overflow: scroll;
+}
+
+#newProjectModal h3, #authModal h3 {
+    color: #64ffda;
+    margin-bottom: 20px;
+}
+
+#newProjectModal form, #authModal form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#newProjectModal input,
+#newProjectModal textarea,
+#newProjectModal select,
+#authModal input {
+    padding: 10px;
+    background: #2a2a2a;
+    border: 1px solid #94a3b8;
+    color: #fff;
+    border-radius: 4px;
+}
+
+#newProjectModal textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+#newProjectModal select {
+    height: 50px;
+}
+
+#newProjectModal button, #authModal button {
+    padding: 10px;
+    background: #64ffda;
+    color: #1a1a1a;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#newProjectModal button[type="button"], #authModal button[type="button"] {
+    background: #ff5555;
+}
+
+.project-card img {
+    margin-top: 10px;
+    border-radius: 4px;
+}

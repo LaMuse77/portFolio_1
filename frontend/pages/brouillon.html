@@ -1,4 +1,20 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>   
+
+
+      <select id="stacks" multiple required>
+                <!-- Options chargées dynamiquement -->
+            </select><br>
+    
+</body>
+</html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -338,8 +354,6 @@
     </div>
 
     <!-- Modal pour créer/éditer un projet -->
-
-    <!-- Modal pour créer/éditer un projet -->
     <div id="newProjectModal" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: #1a1a1a; padding: 20px; border: 1px solid #64ffda; z-index: 1000;">
         <h3 id="modalTitle">Nouveau Projet</h3>
         <form id="projectForm">
@@ -349,19 +363,9 @@
             <input type="url" id="link" placeholder="Lien du projet"><br>
             <input type="url" id="github" placeholder="Lien GitHub"><br>
             <input type="file" id="image" accept="image/*"><br>
-            <label>Technologies existantes</label>
-            <select id="stacks" multiple>
-                <!-- Options chargées dynamiquement -->
-            </select><br>
-            <label>Nouvelles technologies</label>
-            <div id="newStacksContainer">
-                <div class="stack-input-group">
-                    <input type="text" class="stackName" placeholder="Nom de la technologie" required>
-                    <input type="file" class="stackIcon" accept="image/*">
-                    <button type="button" class="removeStackBtn" onclick="removeStackField(this)">Supprimer</button>
-                </div>
-            </div>
-            <button type="button" onclick="addStackField()">Ajouter une technologie</button>
+           <input type="text" id="stackName" placeholder="Nom de la technologie" required><br>
+            <input type="file" id="stackIcon" accept="image/*"><br>
+    
             <select id="status" required>
                 <option value="planned">Planifié</option>
                 <option value="ongoing">En cours</option>
